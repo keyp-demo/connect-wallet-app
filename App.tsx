@@ -1,3 +1,6 @@
+import {polyfillWebCrypto} from "expo-standard-web-crypto";
+polyfillWebCrypto();
+
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { withWalletConnect } from '@walletconnect/react-native-dapp';
 import { StatusBar } from 'expo-status-bar';
